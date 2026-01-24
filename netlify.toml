@@ -1,7 +1,0 @@
-[build]
- command = "echo 'Build complete'"
- publish = "src/frontend"
-[[redirects]]
- from = "/*"
- to = "/index.html"
- status = 200
