@@ -16,5 +16,5 @@ jobs:
           publish-dir: './src/frontend'
           production-deploy: true
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ nfp_KiRXov9gpFUW6LTkKiLma8mQGizNPMjad4d0 }}
           NETLIFY_SITE_ID: ${{ 2eed7b5c-c79b-4711-a1d6-1e309d5b3959 }}
