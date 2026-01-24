@@ -27,7 +27,7 @@ def test_app_creation():
     try:
         # Import app after setting up test environment
         os.environ['TESTING'] = 'True'
-        from app import app
+        from backend.app import app
         assert app is not None
         assert app.config['JWT_SECRET_KEY'] is not None
         print("✓ Flask app creation successful")
