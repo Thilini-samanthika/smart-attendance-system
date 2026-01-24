@@ -209,6 +209,9 @@ bash
 cd backend
 python test_api.py
 
+echo "Test auto-deploy" >> README.md
+
+
  Security Notes
 
 Important for Production:
